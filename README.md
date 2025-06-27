@@ -47,3 +47,27 @@ Feel free to fork, improve, and submit pull requests! If you know more CDNs or b
 ## ⚠️ Disclaimer
 
 This script is for diagnostic and educational use only. The availability of CDN endpoints can vary based on geolocation, DNS configuration, and network filtering policies.
+
+---
+
+## 📝 How to Create the Script File
+
+To create the script file manually, use the following command in your terminal:
+
+```bash
+nano cdn-ultimate-check.sh
+```
+
+Paste the script content inside the file, then save it using `Ctrl + O`, and exit with `Ctrl + X`.
+
+Then make the script executable:
+
+```bash
+chmod +x cdn-ultimate-check.sh
+```
+
+Finally, run it using:
+
+```bash
+./cdn-ultimate-check.sh
+```
