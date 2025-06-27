@@ -23,6 +23,7 @@ This is a powerful and portable Bash script designed to test accessibility to bo
 ## 📜 How to Use
 
 ```bash
+nano cdn-ultimate-check.sh
 chmod +x cdn-ultimate-check.sh
 ./cdn-ultimate-check.sh | tee result-$(date +%F).log
 ```
